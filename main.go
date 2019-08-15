@@ -1,11 +1,11 @@
 package gotest1
 
-type z int
+type Z int
 
-func Test1(n int) z {
-	return z(n)
+func Test1(n int) Z {
+	return Z(n)
 }
 
-func Test2(z z) int {
+func Test2(z Z) int {
 	return int(z)
 }
