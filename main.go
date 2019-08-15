@@ -6,6 +6,6 @@ func Test1(n int) z {
 	return z(n)
 }
 
-func Test2(z int) int {
+func Test2(z z) int {
 	return int(z)
 }
